@@ -310,18 +310,19 @@
         </ul>
       </div>
       <form class="subscribe-form" name="subscribe-form" autocomplete="off" novalidate>
-        <label class="subscribe-form-field">
-          <span class="subscribe-form-label">Подпишитесь на рассылку</span>
-          <span class="subscribe-container">
-            <input class="subscribe-input" type="email" name="subscriber-email" placeholder="E-mail" />
+        <div class="subscribe-form-field">
+          <label class="subscribe-form-label" for="footer-input">Подпишитесь на рассылку</label>
+          <div class=" subscribe-container">
+            <input class="subscribe-input" type="email" name="subscriber-email" id="footer-input"
+              placeholder="E-mail" />
             <button class="subscribe-button" type="submit">
               Подписаться
               <svg class="subscribe-icon" width="24" height="24">
                 <use href="images/sprite.svg#icon-send"></use>
               </svg>
             </button>
-          </span>
-        </label>
+          </div>
+        </div>
       </form>
     </div>
   </footer>

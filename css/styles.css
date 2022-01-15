@@ -659,6 +659,7 @@ footer {
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 
   font-weight: var(--primary-title-font-weight);
   font-size: var(--secondary-text-size);
@@ -708,7 +709,7 @@ footer {
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   min-width: 528px;
-  min-height: 581px;
+  max-height: 581px;
   padding: 40px;
 
   background-color: var(--primary-white-color);
@@ -872,6 +873,8 @@ footer {
   border: 1px solid #212121;
   border-radius: 2px;
   margin-right: 7px;
+
+  cursor: pointer;
 }
 
 .checkbox:checked + .checkbox-icon {
@@ -888,6 +891,12 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+
+  cursor: pointer;
+}
+
+.terms-and-conditions {
+  color: var(--accent-color);
 }
 
 .form-submit-btn {
